@@ -1,4 +1,4 @@
-# react-styled-flexboxgrid
+# react-flex-grid-system
 
 [![npm version](https://badge.fury.io/js/react-styled-flexboxgrid.svg)](https://badge.fury.io/js/react-styled-flexboxgrid)
 [![Build Status](https://travis-ci.org/LoicMahieu/react-styled-flexboxgrid.svg?branch=master)](https://travis-ci.org/LoicMahieu/react-styled-flexboxgrid)
@@ -17,11 +17,11 @@ Highly inspired by the excellent [`react-flexbox-grid`](https://github.com/royle
 ### Installation
 
 ```
-npm i -S react-styled-flexboxgrid
+npm i -S react-flex-grid-system
 ```
 
-`react-styled-flexboxgrid` depends on 2 **peer** dependencies:
-- `react@^0.14.0 || ^15.0.0-0 || ^16.0.0-0`
+`react-flex-grid-system` depends on 2 **peer** dependencies:
+- `react@^0.14.0 || ^15.0.0-0 || ^16.0.0-0 || ^17.0.0-0`
 - `prop-types@^15.0.0-0`
 - `styled-components@2`
 
