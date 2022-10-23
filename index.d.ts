@@ -1,5 +1,9 @@
-declare module "react-styled-flexboxgrid" {
-  import { StyledComponent, DefaultTheme, ThemedCssFunction } from "styled-components";
+declare module "react-flex-grid-system" {
+  import {
+    StyledComponent,
+    DefaultTheme,
+    ThemedCssFunction,
+  } from "styled-components";
 
   namespace ReactStyledFlexboxgrid {
     interface ITheme {
@@ -80,13 +84,27 @@ declare module "react-styled-flexboxgrid" {
       mdOffset?: number;
       lgOffset?: number;
     }
-
   }
 
   export type ITheme = ReactStyledFlexboxgrid.ITheme;
-  export const Grid: StyledComponent<"div", any, ReactStyledFlexboxgrid.IGridProps, never>;
-  export const Row: StyledComponent<"div", any, ReactStyledFlexboxgrid.IRowProps, never>;
-  export const Col: StyledComponent<"div", any, ReactStyledFlexboxgrid.IColProps, never>;
+  export const Grid: StyledComponent<
+    "div",
+    any,
+    ReactStyledFlexboxgrid.IGridProps,
+    never
+  >;
+  export const Row: StyledComponent<
+    "div",
+    any,
+    ReactStyledFlexboxgrid.IRowProps,
+    never
+  >;
+  export const Col: StyledComponent<
+    "div",
+    any,
+    ReactStyledFlexboxgrid.IColProps,
+    never
+  >;
 
   export const config: (props: any) => {
     media: {

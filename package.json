@@ -1,6 +1,6 @@
 {
   "name": "react-flex-grid-system",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Grid system based on styled-components and flexbox for React",
   "keywords": [
     "react",
@@ -36,12 +36,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LoicMahieu/react-styled-flexboxgrid.git"
+    "url": "https://github.com/sizmamani/flexgridsystem.git"
   },
   "bugs": {
-    "url": "https://github.com/LoicMahieu/react-styled-flexboxgrid/issues"
+    "url": "https://github.com/sizmamani/flexgridsystem/issues"
   },
-  "homepage": "https://github.com/LoicMahieu/react-styled-flexboxgrid",
+  "homepage": "https://github.com/sizmamani/flexgridsystem",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",
