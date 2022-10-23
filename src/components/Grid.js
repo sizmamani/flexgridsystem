@@ -20,6 +20,17 @@ const Grid = styled.div`
       `
       )}
     `}
+  ${(p) =>
+    css`
+      ${DIMENSION_NAMES.map(
+        (t) =>
+          config(p).outerMargin[t] &&
+          config(p).media[t]`
+        padding-right: ${(p) => config(p).outerMargin[t]}rem;
+        padding-left: ${(p) => config(p).outerMargin[t]}rem;
+      `
+      )}
+    `}
 `;
 
 Grid.displayName = "Grid";
