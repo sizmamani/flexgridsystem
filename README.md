@@ -94,7 +94,12 @@ const theme = {
     // Defaults
     gridSize: 12, // columns
     gutterWidth: 1, // rem
-    outerMargin: 2, // rem
+    outerMargin: {
+      xs: 2,  // rem
+      sm: 2, // rem
+      md: 2, // rem
+      lg: 2  // rem
+    },
     mediaQuery: 'only screen',
     container: {
       sm: 46, // rem

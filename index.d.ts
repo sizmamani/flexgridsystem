@@ -18,7 +18,12 @@ declare module "react-flex-grid-system" {
       /**
        * rem
        */
-      outerMargin?: number;
+      outerMargin?: {
+        xs?: number;
+        sm?: number;
+        md?: number;
+        lg?: number;
+      };
       mediaQuery?: string;
       container?: {
         /**
