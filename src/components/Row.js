@@ -15,6 +15,8 @@ const Row = styled.div`
   margin-right: ${p => config(p).gutterWidth / 2 * -1}rem;
   margin-left: ${p => config(p).gutterWidth / 2 * -1}rem;
   max-width: ${p => config(p).rowMaxWidth}rem;
+  margin-left: auto;
+  margin-right: auto;
   ${p => p.reverse && `
     flex-direction: row-reverse;
   `}
