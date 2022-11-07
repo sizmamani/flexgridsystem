@@ -1,6 +1,6 @@
 {
   "name": "react-flex-grid-system",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Grid system based on styled-components and flexbox for React",
   "keywords": [
     "react",
