@@ -4,6 +4,7 @@ const THEME_CONF = "flexboxgrid";
 export const BASE_CONF = {
   gridSize: 12,
   gutterWidth: 1,
+  rowMaxWidth: 90,
   outerMargin: {
     xs: 2, // rem
     sm: 2, // rem
